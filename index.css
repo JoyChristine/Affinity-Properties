@@ -9,9 +9,16 @@ p{
 h2{
     text-align: center;
 }
-<<<<<<< HEAD
-h3{
-    font-size: large;
+/* francis styling */
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "image" "text" "stats";
+
+    font-family: roboto;
+    border-radius: 18px;
+    background: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
 }
-=======
->>>>>>> a196196c7389d6bf0de6739d5ef3935d68b54df1
