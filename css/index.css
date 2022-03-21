@@ -4,18 +4,37 @@ body{
 
 /* JOY */
 /* PROPERTY SECTION */
-#best{
-    background-color: red;
-    padding: 2% 2% 2% 5%;
+#property{
+    
+    padding: 8% 5% 2% 5%;
+    font-family: 'Poppins', sans-serif;
 }
-#best h3{
+#property h3{
     font-family: 'Poppins', sans-serif;
     font-size: 1.5vw;
+   
     /* font-weight: 300; */
     
 }
-#best h1{
+#best-text h1{
     font-family: 'Poppins', sans-serif;
     font-size: 3vw;
+   
     font-weight: 800;
+}
+#best-text {
+    display: flex;
+    justify-content: space-between;
+}
+#btn-learn{
+    border-color: black;
+    background-color: #D7EBF4;
+    font-size: 1.4vw;
+    padding: 1.5% 1.5% 1.5% 1.5%;
+}
+.row img{
+    height: 27vw;
+}
+@media screen {
+    
 }
