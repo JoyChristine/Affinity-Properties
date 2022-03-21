@@ -17,7 +17,7 @@ h2{
     grid-template-areas: "image" "text" "stats";
 
     font-family: roboto;
-    border-radius: 18px;
+    border-radius: 15px;
     background: white;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
     text-align: center;
