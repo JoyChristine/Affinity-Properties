@@ -1,24 +1,13 @@
-body{
-    margin:0;
+*{
+    box-sizing: border-box;
+    font-family: 'Latino', sans-serif;
 }
-
-/* JOY */
-/* PROPERTY SECTION */
-#best{
-    background-color: red;
-    padding: 2% 2% 2% 5%;
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
 }
-#best h3{
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.5vw;
-    /* font-weight: 300; */
-    
-}
-#best h1{
-    font-family: 'Poppins', sans-serif;
-    font-size: 3vw;
-    font-weight: 800;
-}
-
-
 
