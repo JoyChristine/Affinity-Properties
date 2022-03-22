@@ -1,6 +1,106 @@
 body{
     margin:0;
 }
+
+
+/* Winston start */
+
+
+/* .nav_area{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5%;
+    
+    
+
+} */
+.home_page{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.dream_page{
+    width: 50%;
+}
+
+.navlist{
+    background-image: url(../Assets/wm1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+.navlist ul li{
+    display: inline-block;
+    margin: 2vw;
+    
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: black;
+    padding-right: 23%;
+}
+
+a.active,a:hover{
+    transition: 0.2s;
+}
+
+#title{
+    text-align: center;
+    align-items: center;
+    
+}
+
+#choice{
+    text-align:center;
+    padding-top: 13%;
+    font-size: 8vh;
+    align-items: center;
+}
+.learn{
+    padding: 21%;
+    text-align: center;
+    
+}
+#btn{
+    background-color: rgb(28, 65, 28);
+    color: white;
+    font-size: 4vh;
+    border-radius: 19vh;
+    padding: 2vh 6vh;
+}
+/* .dream_page{
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 10%;
+} */
+/* .home_page{
+   
+   
+} */
+
+/* #title{
+    padding-left: 9%;
+} */
+
+/* Winston end */
+
+
+
+
 /* Diana */
 #about{
     text-align: center;
@@ -54,92 +154,6 @@ body{
 /* DIANA */
 /* About us */
 
-
-/* Winston start */
-
-
-/* .nav_area{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    justify-content: center;
-    width: 100%;
-    padding: 1.5%;
-    
-    
-
-} */
-.home_page{
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-}
-
-.dreampage{
-    width: 50%;
-}
-
-.navlist{
-    background-image: url(../Assets/wm1.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    list-style: none;
-    width: 50%;
-    height: 100vh;
-}
-
-
-
-.navlist ul li{
-    display: inline-block;
-    margin: 2vw;
-    
-}
-
-.navlist ul li a{
-    text-decoration: none;
-    justify-content: space-around;
-    color: black;
-    padding-right: 23%;
-}
-
-a.active,a:hover{
-    transition: 0.2s;
-}
-
-#title{
-    padding: 5%;
-}
-
-#choice{
-    text-align: end;
-    padding-top: 33%;
-}
-/* .dream_page{
-    text-align: left;
-    padding-top: 10%;
-    padding-left: 10%;
-} */
-/* .home_page{
-   
-   
-} */
-
-/* #title{
-    padding-left: 9%;
-} */
-
-
-
-
-
-
-
-
-/* Winston end */
 
 .parent{
     display: flex;
