@@ -23,15 +23,6 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 2.5vw;
 }
-#btn-home{
-    border-color: black;
-    width: 13vw;
-    margin-top: 2%;
-    height: 3vw;
-    background-color: #D7EBF4;
-    font-size: 1.4vw;
-   
-}
 .row{
     margin: 0%;
     width: 50%;
@@ -93,4 +84,29 @@ border-top-left-radius: 1vw;
     padding: 2%;
     border-bottom-left-radius: 1vw;
     border-bottom-right-radius: 1vw;
+}
+/* nav */
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+#list{
+    width: 50%;
+    background-image: url(../images/apartment2.jpg);
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#navlist {
+    display: flex;
+    list-style: none;
+    float: right;
+   
+    
+}
+#navlist li{
+   margin: 2vw;
 }
