@@ -36,20 +36,21 @@ body{
 
 .child1{
     background-color: #213E44;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 30%;
     margin-right: 2%;
    
 }
 .child2{
     background-color:#4697A8 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 30%; 
     margin-right: 2%;
 }
 .child3{
     background-color: #97B6BE;
     width: 30%;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* DIANA */
 /* About us */
