@@ -5,22 +5,37 @@ body{
 /* Winston start */
 
 
-.nav_area{
+/* .nav_area{
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    /* justify-content: center; */
+    justify-content: center;
     width: 100%;
     padding: 1.5%;
     
     
 
+} */
+.home_page{
+    display: flex;
+    width: 100%;
+}
+
+.navlist{
+    background-image: url(../Assets/wm1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100vh;
 }
 
 
 
-.nav_area ul li{
+.navlist ul li{
     display: inline-block;
     margin-left: 5vw;
     
@@ -29,7 +44,7 @@ body{
     
 }
 
-.nav_area ul li a{
+.navlist ul li a{
     text-decoration: none;
     justify-content: space-around;
     color: black;
@@ -40,11 +55,11 @@ a.active,a:hover{
     transition: 0.2s;
 }
 
-.dream_page{
+/* .dream_page{
     text-align: left;
     padding-top: 10%;
     padding-left: 10%;
-}
+} */
 /* .home_page{
    
    
