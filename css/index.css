@@ -1,4 +1,243 @@
 
+body{
+    margin:0;
+}
+/* Diana */
+#about{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ; 
+}
+.about-us{
+    background-color:#d7ebf4 ;
+}
+#vsn{
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+#home{
+    height:800px;
+    width:auto ;
+}
+#vision1,#vision2{
+    color: #212529;
+    font-style: normal;
+    font-size: 30px;
+ font-weight: 500;
+ font-family: poppins,sans-serif;
+ position: relative;
+ bottom: 60px;
+
+}
+/* services/Diana */
+
+
+.child1{
+    background-color: #213E44;
+    
+    width: 30%;
+    margin-right: 2%;
+   
+}
+.child2{
+    background-color:#4697A8 ;
+    width: 30%; 
+    margin-right: 2%;
+}
+.child3{
+    background-color: #97B6BE;
+    width: 30%;
+    
+}
+/* DIANA */
+/* About us */
+
+
+/* Winston start */
+
+
+/* .nav_area{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    padding: 1.5%;
+    
+    
+
+} */
+.home_page{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.dreampage{
+    width: 50%;
+}
+
+.navlist{
+    background-image: url(../Assets/wm1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100vh;
+}
+
+
+
+.navlist ul li{
+    display: inline-block;
+    margin: 2vw;
+    
+}
+
+.navlist ul li a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: black;
+    padding-right: 23%;
+}
+
+a.active,a:hover{
+    transition: 0.2s;
+}
+
+#title{
+    padding: 5%;
+}
+
+#choice{
+    text-align: end;
+    padding-top: 33%;
+}
+/* .dream_page{
+    text-align: left;
+    padding-top: 10%;
+    padding-left: 10%;
+} */
+/* .home_page{
+   
+   
+} */
+
+/* #title{
+    padding-left: 9%;
+} */
+
+
+
+
+
+
+
+
+/* Winston end */
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+#choose1{
+    text-align: center;
+   
+    padding-bottom: 50px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ; 
+}
+
+#choose{
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ;
+   width:70% ;
+   margin-bottom: 50px;
+ 
+}
+#prop{
+    
+    
+    font-family: poppins,sans-serif;
+    padding: 10%;
+   color:#212529 
+}
+#prop1{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ;
+}
+
+i{
+    position: relative;
+    top: 10%;
+    left:40%;
+}
+/* JOY */
+/* PROPERTY SECTION */
+#property{
+    
+    padding: 8% 5% 2% 5%;
+    font-family: 'Poppins', sans-serif;
+}
+#property h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+   
+    /* font-weight: 300; */
+    
+}
+#best-text h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+   
+    font-weight: 800;
+}
+#best-text {
+    display: flex;
+    justify-content: space-between;
+}
+#btn-learn{
+    border-color: black;
+    width: 15vw;
+    height: 4vw;
+    background-color: #D7EBF4;
+    font-size: 1.4vw;
+    padding: 2% 2% 2% 2vw;
+}
+.row img{
+    height: 27vw;
+}
+
+    
+/* FRANCIS */
+/* Blog section */
+
+
+/* *{
+    box-sizing: border-box;
+    font-family: 'Latino', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: lightgoldenrodyellow;
+} */
 .wrapper{
     display: flex;
     padding-left: 10%;
