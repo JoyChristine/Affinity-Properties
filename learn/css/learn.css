@@ -2,8 +2,95 @@ body{
     margin: 0;
     left: 0;
     top:0;
+    cursor: pointer;
+   
+   
+}
+
+.header{
+    display: flex;
+   
+}
+#map {
+     height: 40vw;
+    width: 50%; 
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+.title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5vw;
+}
+#btn-home{
+    border-color: black;
+    width: 13vw;
+    margin-top: 2%;
+    height: 3vw;
+    background-color: #D7EBF4;
+    font-size: 1.4vw;
+   
 }
 .row{
-    background-color:rgb(251, 255, 0);
+    margin: 0%;
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+    /* background-color: #213E44; */
+}
+
+#house,#house2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+#house2{
+    margin-top:5%;
+
+}
+#house .col:nth-child(2),#house2 .col:nth-child(2){
+    margin-left: 2%;
+}
+#describe{
+    font-size: 1vw;
+    display: block;
+    text-align: center;
+    background-color: #D7EBF4;
+    padding: 2%;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+#house2 .col img,#house .col img {
+    border-top-right-radius: 1vw;
+    border-top-left-radius: 1vw;
+}
+/* row2 */
+.other{
+    font-size: 2vw;
+}
+.apart{
+    display: flex;
+    width: 100%;
+   
     
+    
+}
+.apart img{
+width: 90%;
+height: 90%;
+border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+
+}
+#describe2{
+    font-size: 1vw;
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: #D7EBF4;
+    padding: 2%;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
 }

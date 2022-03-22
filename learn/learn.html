@@ -5,15 +5,248 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/learn.css">
-    
+    <!-- leaflet -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+    crossorigin=""></script>
     <!-- bootstrap link  -->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      <!-- font-awesome link -->
+   <script src="https://kit.fontawesome.com/e7b91dfbc6.js" crossorigin="anonymous"></script>
+       <!-- google font link -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Poppins&family=Raleway&family=Roboto+Slab&display=swap" rel="stylesheet">
+    
   
     <title>Learn more</title>
 </head>
 <body>
 
-    <div class="row align-items-start" style="margin: 0;">
+
+
+    <div class="title">
+        <h1>We offer a wide variety of homes & apartments</h1> 
+        <a href="../index.html"> 
+            <button id="btn-home"> Back home<span> &nbsp;&nbsp;
+                <i class="fa fa-solid fa-arrow-left"></i></span> 
+            </button>
+        </a>
+        
+        
+    </div>
+    <div class="header">
+        <div id="map">
+            <style>
+            img{
+                width: 20vw;
+            }
+            </style>
+        </div>
+
+        <div class="row align-items-start">
+            <div id="house">
+                <div class="col">
+                    <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjZ8fGhvbWUlMjBleHRlcmlvcnxlbnwwfDB8MHx8&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="" style="width: 100%;">
+                    <div id="describe">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span> &nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        
+                        
+                        
+                    </div>
+                         
+                </div>
+                <div class="col" >
+                    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZXN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="" style="width: 100%;">
+                    <div id="describe">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-water"></i>1 pool</span>
+                    </div>    
+                </div>   
+                
+            </div>
+            <div id="house2">
+                <div class="col" >
+                    <img src="https://images.unsplash.com/photo-1600585154363-67eb9e2e2099?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGhvbWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="Los Angeles" class="" style="width: 100%;">
+                    <div id="describe">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span> &nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-water"></i>1 pool</span>
+                        
+                        
+                    </div>
+                         
+                </div>
+                <div class="col">
+                    <img src="https://images.unsplash.com/photo-1628624747295-ea5e7fc3d76f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhvbWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=700&q=60" alt="Los Angeles" class="" style="width: 100%;">
+                    <div id="describe">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-water"></i>1 pool</span>
+                    </div>    
+                </div>   
+                
+            </div>
+            
+        </div>
+
+        
+    </div>
+    <p class="other"style=" font-family: 'Poppins', sans-serif;">Other exciting homes</p>
+    <div class="apart">
+        <div class="apart1" >
+            <img src="https://images.unsplash.com/photo-1475746812396-2b046c18be0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGhvbWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="" >
+                <div id="describe2">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-water"></i>1 pool</span>
+                </div>    
+        </div>
+        <div class="apart2">
+            <img src="https://images.unsplash.com/photo-1416331108676-a22ccb276e35?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDZ8fGhvbWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60 " alt="Los Angeles" class="" >
+                    <div id="describe2">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-water"></i>1 pool</span>
+                    </div>    
+        </div>
+        <div class="apart3">
+            <img src="https://images.unsplash.com/photo-1475746812396-2b046c18be0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDN8fGhvbWVzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="">
+                    <div id="describe2">
+                        <span>  <i class="fa fa-solid fa-bed"></i>3 bedrooms</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-bath"></i>3 baths</span>&nbsp;
+                        <span>  <i class="fa fa-solid fa-water"></i>1 pool</span>
+                    </div>    
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+    <script>
+      var map = L.map('map').setView([-1.2921, 36.8219], 10.4);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        var myIcon = L.icon({
+        iconUrl: './images/house.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.1821, 36.7219],
+        });
+       var marker = L.marker([-1.1821, 36.7219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house4.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        iconUrl: './images/house.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.1921, 36.8219],
+        });
+       var marker = L.marker([-1.0921, 36.8219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house5.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        iconUrl: './images/house.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.0921, 36.8219],
+        });
+       var marker = L.marker([-1.2921, 36.7219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house3.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        title: "this is cool",
+        iconUrl: './images/house.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.2921, 36.7219],
+        });
+       var marker = L.marker([-1.2921, 36.8219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house5.jpg' /> ");
+
+        var myIcon = L.icon({
+        iconUrl: './images/house.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.3238, 36.8440],
+        });
+       var marker = L.marker([-1.3238, 36.8440], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house3.jpg' /> ");
+// APARTMENTS
+        var myIcon = L.icon({
+        iconUrl: './images/apartment.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.3921, 36.6219],
+        });
+       var marker = L.marker([-1.3921, 36.6219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment1.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        iconUrl: './images/apartment.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.3221, 36.6219],
+        });
+       var marker = L.marker([-1.3221, 36.6219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment2.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        iconUrl: './images/apartment.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.3821, 36.6219],
+        });
+       var marker = L.marker([-1.3821, 37.1219], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment4.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        iconUrl: './images/apartment.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.2132, 36.8380],
+        });
+       var marker = L.marker([-1.2132, 36.8380], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment1.jpg' /> ");
+
+       var myIcon = L.icon({
+        iconUrl: './images/apartment.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.2893, 36.7869],
+        });
+       var marker = L.marker([-1.2893, 36.7869], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment2.jpg' /> ");
+
+
+        var myIcon = L.icon({
+        iconUrl: './images/apartment.png',
+        iconSize: [38, 45],
+        popupAnchor: [-1.2183, 36.8427],
+        });
+       var marker = L.marker([-1.2183, 36.8427], {icon: myIcon}).addTo(map);
+        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment4.jpg' /> ");
+    </script>
+
+    <!-- <div class="row align-items-start" style="margin: 0;">
         <div class="col">
          
             <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
@@ -39,7 +272,7 @@
             <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
                      
         </div>
-    </div>
+    </div> -->
     <br>
     <script src="scripts.js"></script>
 </body>
