@@ -1,7 +1,64 @@
 
 body{
     margin:0;
+
 }
+
+/* Diana */
+#about{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ; 
+}
+.about-us{
+    background-color:#d7ebf4 ;
+}
+#vsn{
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+#home{
+    height:800px;
+    width:auto ;
+}
+#vision1,#vision2{
+    color: #212529;
+    font-style: normal;
+    font-size: 30px;
+ font-weight: 500;
+ font-family: poppins,sans-serif;
+ position: relative;
+ bottom: 60px;
+
+}
+/* services/Diana */
+
+
+.child1{
+    background-color: #213E44;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    margin-right: 2%;
+   
+}
+.child2{
+    background-color:#4697A8 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%; 
+    margin-right: 2%;
+}
+.child3{
+    background-color: #97B6BE;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* DIANA */
+/* About us */
+
+
 /* Winston start */
 
 
@@ -211,7 +268,14 @@ a.active,a:hover{
 .row img{
     height: 27vw;
 }
-
+#carousel-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+     bottom:0%;
+     color: #fff;
+     background-color: #213E44;
+}
     
 /************************************  FRANCIS************************************************** */
 /* Blog section */
@@ -307,4 +371,84 @@ html, body{
 }
 .card .info .btn:hover{
     box-shadow: 0px 7px 10px rgba(0,176,155,0.5);
+}
+
+
+/* contact */
+.contact{
+    width: 100%;
+    background: rgba(0,176,155,0.5);
+}
+.contact-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact-inner-col{
+    margin: 2rem;
+    flex: 1 1 20rem;
+}
+.contact-inner-col img{
+    width: 100%;
+    height: 100vh;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.contact-inner-col h1{
+    padding: 1rem 0;
+    color: red;
+    font-size: 3rem;
+    letter-spacing: .1rem;
+    text-transform: capitalize;
+}
+.contact-inner-col p{
+    padding: .5rem 0;
+    line-height: 1.5rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    color-interpolation-filters: linearRGB;
+}
+.contact-inner-col input,
+.contact-inner-col textarea{
+    width: 80%;
+    padding: 1rem;
+    margin-bottom: 1.2rem;
+    border: none;
+    border-bottom: .3rem solid grey;
+}
+.textarea{
+    resize: none;
+}
+.map{
+    border: 1rem solid black;
+}
+.copyright{
+    display: flex;
+    margin-top: 5rem;
+    padding: 3rem;
+    text-align: center;
+    justify-content: space-between;
+    background: grey;
+}
+.copyright i{
+    font-size: 2rem;
+    color: white;
+}
+.copyright p{
+    letter-spacing: .1rem;
+    font-size: 1.5rem;
+    color: white;
+}
+.social i{
+    padding: 1rem;
+    background: red;
+    color: white;
+    font-size: 1.5rem;
+}
+.social i:hover{
+    transform: translateY(-2rem);
+    color: white;
+    cursor: pointer;
+    transition: .5s ease;
 }
