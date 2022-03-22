@@ -2,6 +2,7 @@
 body{
     margin:0;
 }
+
 /* Diana */
 #about{
     text-align: center;
@@ -180,16 +181,14 @@ a.active,a:hover{
    color:#212529 ;
 }
 
-i{
-    position: relative;
-    top: 10%;
-    left:40%;
-}
-/* JOY */
+
+
+
+/*********************************** JOY **************************************************/
 /* PROPERTY SECTION */
 #property{
-    
-    padding: 8% 5% 2% 5%;
+    background-color:#d7ebf4;
+    padding: 8% 5% 8% 5%;
     font-family: 'Poppins', sans-serif;
 }
 #property h3{
@@ -212,8 +211,9 @@ i{
 #btn-learn{
     border-color: black;
     width: 15vw;
+    color: #fff;
     height: 4vw;
-    background-color: #D7EBF4;
+    background-color:#213E44;
     font-size: 1.4vw;
     padding: 2% 2% 2% 2vw;
 }
@@ -222,7 +222,7 @@ i{
 }
 
     
-/* FRANCIS */
+/************************************  FRANCIS************************************************** */
 /* Blog section */
 
 
