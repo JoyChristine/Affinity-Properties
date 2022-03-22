@@ -69,7 +69,9 @@ a.active,a:hover{
     font-size: 4vh;
     border-radius: 19vh;
     padding: 2vh 6vh;
-    box-shadow: #040405;
+    box-shadow: 1vw 1vw 1vw 1vw #040405;
+    border: none;
+
 }
 
 
