@@ -317,3 +317,17 @@ html, body{
 .card .info .btn:hover{
     box-shadow: 0px 7px 10px rgba(0,176,155,0.5);
 }
+/* contact */
+.contact{
+    width: 100%;
+}
+.contact-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contact-inner-col{
+    margin: 2rem;
+    flex: 1 1 20rem;
+}
