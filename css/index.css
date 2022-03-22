@@ -1,3 +1,4 @@
+
 body{
     margin:0;
 }
@@ -239,16 +240,17 @@ html, body{
 } */
 .wrapper{
     display: flex;
-    width: 70%;
-    justify-content: space-around;
+    padding-left: 10%;
+    /* justify-content: space-around; */
 }
 .card{
-    width: 280px;
-    height: 360px;
-    padding: 2rem 1rem;
+    width: 15vw;
+    height: 30vw;
+    padding: 2%;
     background: pink;
+    display: inline-flex;
+    justify-content: space-between;
     position: relative;
-    display: flex;
     align-items: flex-end;
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
     transition: 0.5s ease-in-out;
@@ -276,6 +278,7 @@ html, body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    justify-content: space-between;
     position: absolute;
     top: 0;
     left: 0;
