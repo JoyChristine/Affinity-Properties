@@ -6,18 +6,6 @@ body{
 /* Winston start */
 
 
-/* .nav_area{
-    display: flex;
-    height: 100%;
-    align-items: center;
-    justify-content: space-between;
-    justify-content: center;
-    width: 100%;
-    padding: 1.5%;
-    
-    
-
-} */
 .home_page{
     display: flex;
     width: 100%;
@@ -38,7 +26,6 @@ body{
     width: 50%;
     height: 100vh;
 }
-
 
 
 .navlist ul li{
@@ -81,20 +68,13 @@ a.active,a:hover{
     font-size: 4vh;
     border-radius: 19vh;
     padding: 2vh 6vh;
+    box-shadow: #040405;
 }
-/* .dream_page{
-    text-align: left;
-    padding-top: 10%;
-    padding-left: 10%;
-} */
-/* .home_page{
-   
-   
-} */
 
-/* #title{
-    padding-left: 9%;
-} */
+
+   
+   
+
 
 /* Winston end */
 
@@ -191,6 +171,12 @@ a.active,a:hover{
     font-family: poppins,sans-serif;
     font-weight: bold;
    color:#212529 ;
+}
+
+i{
+    position: relative;
+    top: 10%;
+    left:40%;
 }
 /* JOY */
 /* PROPERTY SECTION */
