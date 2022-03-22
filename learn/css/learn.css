@@ -3,6 +3,8 @@ body{
     left: 0;
     top:0;
     cursor: pointer;
+   
+   
 }
 
 .header{
@@ -13,15 +15,29 @@ body{
      height: 40vw;
     width: 50%; 
 }
+.title{
+    display: flex;
+    justify-content: space-between;
+}
 .title h1{
     font-family: 'Poppins', sans-serif;
+    font-size: 2.5vw;
+}
+#btn-home{
+    border-color: black;
+    width: 13vw;
+    margin-top: 2%;
+    height: 3vw;
+    background-color: #D7EBF4;
+    font-size: 1.4vw;
+   
 }
 .row{
     margin: 0%;
     width: 50%;
     display: flex;
     flex-direction: column; 
-    background-color: #213E44;
+    /* background-color: #213E44; */
 }
 
 #house,#house2{
@@ -49,4 +65,32 @@ body{
 #house2 .col img,#house .col img {
     border-top-right-radius: 1vw;
     border-top-left-radius: 1vw;
+}
+/* row2 */
+.other{
+    font-size: 2vw;
+}
+.apart{
+    display: flex;
+    width: 100%;
+   
+    
+    
+}
+.apart img{
+width: 90%;
+height: 90%;
+border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+
+}
+#describe2{
+    font-size: 1vw;
+    display: block;
+    width: 90%;
+    text-align: center;
+    background-color: #D7EBF4;
+    padding: 2%;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
 }
