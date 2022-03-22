@@ -3,62 +3,7 @@ body{
     margin:0;
 
 }
-
-/* Diana */
-#about{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: poppins,sans-serif;
-    font-weight: bold;
-   color:#212529 ; 
-}
-.about-us{
-    background-color:#d7ebf4 ;
-}
-#vsn{
-    padding-top: 50px;
-    padding-bottom:100px;
-}
-#home{
-    height:800px;
-    width:auto ;
-}
-#vision1,#vision2{
-    color: #212529;
-    font-style: normal;
-    font-size: 30px;
- font-weight: 500;
- font-family: poppins,sans-serif;
- position: relative;
- bottom: 60px;
-
-}
-/* services/Diana */
-
-
-.child1{
-    background-color: #213E44;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 30%;
-    margin-right: 2%;
-   
-}
-.child2{
-    background-color:#4697A8 ;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 30%; 
-    margin-right: 2%;
-}
-.child3{
-    background-color: #97B6BE;
-    width: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/* DIANA */
-/* About us */
-
-
+/* *************************************Winston**************************************** */
 /* Winston start */
 
 
@@ -133,6 +78,63 @@ a.active,a:hover{
 
 
 /* Winston end */
+
+/* Diana */
+#about{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ; 
+}
+.about-us{
+    background-color:#d7ebf4 ;
+}
+#vsn{
+    padding-top: 50px;
+    padding-bottom:100px;
+}
+#home{
+    height:800px;
+    width:auto ;
+}
+#vision1,#vision2{
+    color: #212529;
+    font-style: normal;
+    font-size: 30px;
+ font-weight: 500;
+ font-family: poppins,sans-serif;
+ position: relative;
+ bottom: 60px;
+
+}
+/* services/Diana */
+
+
+.child1{
+    background-color: #213E44;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%;
+    margin-right: 2%;
+   
+}
+.child2{
+    background-color:#4697A8 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 30%; 
+    margin-right: 2%;
+}
+.child3{
+    background-color: #97B6BE;
+    width: 30%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* DIANA */
+/* About us */
+
+
+
 /* Diana */
 #about{
     text-align: center;
