@@ -220,7 +220,14 @@ a.active,a:hover{
 .row img{
     height: 27vw;
 }
-
+#carousel-text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2vw;
+    position: absolute;
+     bottom:0%;
+     color: #fff;
+     background-color: #213E44;
+}
     
 /************************************  FRANCIS************************************************** */
 /* Blog section */
