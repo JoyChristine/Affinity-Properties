@@ -365,3 +365,15 @@ html, body{
 .map{
     border: 1rem solid black;
 }
+.copyright{
+    display: flex;
+    margin-top: 5rem;
+    padding: 3rem;
+    text-align: center;
+    justify-content: space-between;
+    background: grey;
+}
+.copyright i{
+    font-size: 2rem;
+    color: white;
+}
