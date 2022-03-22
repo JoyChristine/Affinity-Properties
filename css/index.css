@@ -31,19 +31,64 @@ body{
  bottom: 60px;
 
 }
+/* services/Diana */
 
 
-/* DIANA */
-/* About us */
-#about{
+.child1{
+    background-color: #213E44;
+    
+    width: 30%;
+    margin-right: 2%;
+   
+}
+.child2{
+    background-color:#4697A8 ;
+    width: 30%; 
+    margin-right: 2%;
+}
+.child3{
+    background-color: #97B6BE;
+    width: 30%;
+    
+}
+
+.parent{
+    display: flex;
+    flex-direction: row;
+    align-content: space-between;
+}
+#choose1{
     text-align: center;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-.about-us{
-    background-color:#d7ebf4 ;
+   
+    padding-bottom: 50px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ; 
 }
 
+#choose{
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ;
+   width:70% ;
+   margin-bottom: 50px;
+ 
+}
+#prop{
+    
+    
+    font-family: poppins,sans-serif;
+    padding: 10%;
+   color:#212529 
+}
+#prop1{
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    font-family: poppins,sans-serif;
+    font-weight: bold;
+   color:#212529 ;
+}
 /* JOY */
 /* PROPERTY SECTION */
 #property{
