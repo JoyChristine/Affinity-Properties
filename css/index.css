@@ -34,6 +34,7 @@ body{
 /* services/Diana */
 
 
+<<<<<<< HEAD
 .child1{
     background-color: #213E44;
     
@@ -51,6 +52,11 @@ body{
     width: 30%;
     
 }
+=======
+/* DIANA */
+/* About us */
+
+>>>>>>> 3660f30c62cc47be068350c5af405ee13035e39a
 
 .parent{
     display: flex;
