@@ -89,6 +89,12 @@ body{
     font-weight: bold;
    color:#212529 ;
 }
+
+i{
+    position: relative;
+    top: 10%;
+    left:40%;
+}
 /* JOY */
 /* PROPERTY SECTION */
 #property{
