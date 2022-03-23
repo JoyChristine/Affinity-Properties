@@ -67,6 +67,7 @@ a.active,a:hover{
     font-weight: 600;
     color: rgb(25, 43, 25);
     
+    
 }
 
 #choice{
@@ -105,7 +106,7 @@ a.active,a:hover{
 
 /* Winston end */
 
-/* Diana */
+/************************************Diana ***************************/
 #about{
     text-align: center;
     padding-top: 50px;
@@ -122,10 +123,12 @@ a.active,a:hover{
     padding-bottom:100px;
 }
 #home{
-    height:800px;
-    width:auto ;
+    height:600px;
+    width:500px ;
+    position: relative;
+    left: 10%;
 }
-#vision1,#vision2{
+#vision1{
     color: #212529;
     font-style: normal;
     font-size: 30px;
@@ -135,84 +138,50 @@ a.active,a:hover{
  bottom: 60px;
 
 }
-/* services/Diana */
+#vision2{
 
-
-.child1{
-    background-color: #213E44;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 30%;
-    margin-right: 2%;
-   
-}
-.child2{
-    background-color:#4697A8 ;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width: 30%; 
-    margin-right: 2%;
-}
-.child3{
-    background-color: #97B6BE;
-    width: 30%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-/* DIANA */
-/* About us */
-
-
-
-/* Diana */
-#about{
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    font-family: poppins,sans-serif;
-    font-weight: bold;
-   color:#212529 ; 
-}
-.about-us{
-    background-color:#d7ebf4 ;
-}
-#vsn{
-    padding-top: 50px;
-    padding-bottom:100px;
-}
-#home{
-    height:800px;
-    width:auto ;
-}
-#vision1,#vision2{
-    color: #212529;
+ color: #212529;
     font-style: normal;
-    font-size: 30px;
+    font-size: 1.2vw;
  font-weight: 500;
  font-family: poppins,sans-serif;
  position: relative;
  bottom: 60px;
-
 }
 /* services/Diana */
 
 
 .child1{
     background-color: #213E44;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: 30%;
+
     margin-right: 2%;
    
 }
 .child2{
     background-color:#4697A8 ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
     width: 30%; 
     margin-right: 2%;
 }
 .child3{
     background-color: #97B6BE;
     width: 30%;
-    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* DIANA */
-/* About us */
+
+
+
+
+
+#icon-home{
+    position:relative;
+    left:40%;
+    top:10%
+}
+
 
 .parent{
     display: flex;
@@ -255,8 +224,7 @@ a.active,a:hover{
 
 
 
-
-
+/*************************** Diana's end ******************/
 
 
 
@@ -324,6 +292,7 @@ html, body{
 .wrapper{
     display: flex;
     padding-left: 10%;
+    background: lightgray;
     /* justify-content: space-around; */
 }
 .card{
@@ -339,7 +308,10 @@ html, body{
     transition: 0.5s ease-in-out;
 }
 .card:hover{
-    transform: translateY(20px);
+     background-position: left bottom;
+     color: white;
+     border: none;
+     box-shadow: 0 0 12vw;
 }
 .card:before{
     content: "";
@@ -402,8 +374,86 @@ html, body{
 }
 
 
+/****************FINANCIAL ADVICE ***************/
+#advice{
+    margin-top:10%;
+    background-color: #D7EBF4;
+    padding:2% 2% 2% 5%;
+    
+}
+#advice h2{
+    font-size: 4vw;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.bank{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+#contacts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 2% 10% 2%;
+    width: 100%;
+}
+#contact-pic{
+    width: fit-content;
+}
+#contact-pic img{
+    height: 140%;
+    width: 90%;
+}
+#contact-list, #office{
+    list-style: none;
+    
+}
+#contact-us{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20%;
+}
+#office svg{
+    width: 1.3vw;
+    height: 1.3vw;
+}
+#footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #213E44;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* contact */
-.contact{
+/* .contact{
     width: 100%;
     background: rgba(0,176,155,0.5);
 }
@@ -479,4 +529,4 @@ html, body{
     color: white;
     cursor: pointer;
     transition: .5s ease;
-}
+} */
