@@ -11,6 +11,8 @@ body{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    height: 100vh;
+    ;
 }
 
 .dream_page{
@@ -74,14 +76,14 @@ a.active,a:hover{
     /* text-align:center; */
     padding-top: 19%;
     padding-left: 30%;
-    font-size: 11vh;
+    font-size: 12vh;
     /* align-items: center; */
     font-family: 'Big Shoulders Display', cursive;
     
     font-weight: 600;
 }
 .learn{
-    padding: 21%;
+    /* padding: 21%; */
     padding-left: 30%;
     /* text-align: center; */
     /* font-family: 'Big Shoulders Display', cursive; */
