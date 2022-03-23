@@ -115,3 +115,12 @@ border-top-left-radius: 1vw;
 #navlist li{
    margin: 2vw;
 }
+/* search */
+#my-list{
+    list-style-type: none;
+    display: block;
+    justify-content: space-between;
+}
+#my-list li a{
+    text-decoration: none;
+}
