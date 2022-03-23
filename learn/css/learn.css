@@ -69,8 +69,6 @@ body{
 .apart{
     display: flex;
     width: 100%;
-   
-    
     
 }
 .apart img{
@@ -116,11 +114,26 @@ border-top-left-radius: 1vw;
    margin: 2vw;
 }
 /* search */
+#choose{
+    /* margin-left: -2%; */
+}
 #my-list{
     list-style-type: none;
-    display: block;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    overflow: hidden;
     justify-content: space-between;
 }
+
 #my-list li a{
     text-decoration: none;
+    display:none;
+}
+#my-list img{
+    width: 30vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+  
 }
