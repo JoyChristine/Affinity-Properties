@@ -50,6 +50,7 @@ a.active,a:hover{
     text-align: center;
     align-items: center;
     
+    
 }
 
 #choice{
@@ -378,8 +379,86 @@ html, body{
 }
 
 
+/****************FINANCIAL ADVICE ***************/
+#advice{
+    margin-top:10%;
+    background-color: #D7EBF4;
+    padding:2% 2% 2% 5%;
+    
+}
+#advice h2{
+    font-size: 4vw;
+    font-weight: 400;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.bank{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+    font-size: 3vw;
+}
+
+#contacts{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 5% 2% 10% 2%;
+    width: 100%;
+}
+#contact-pic{
+    width: fit-content;
+}
+#contact-pic img{
+    height: 140%;
+    width: 90%;
+}
+#contact-list, #office{
+    list-style: none;
+    
+}
+#contact-us{
+    font-family: 'Poppins', sans-serif;
+    margin-right: 20%;
+}
+#office svg{
+    width: 1.3vw;
+    height: 1.3vw;
+}
+#footer{
+    font-family: 'Poppins', sans-serif;
+    background-color: #213E44;
+    text-align: center;
+    color: #fff;
+    font-size: 1.4vw;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* contact */
-.contact{
+/* .contact{
     width: 100%;
     background: rgba(0,176,155,0.5);
 }
@@ -455,4 +534,4 @@ html, body{
     color: white;
     cursor: pointer;
     transition: .5s ease;
-}
+} */
