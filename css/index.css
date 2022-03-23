@@ -1,6 +1,7 @@
 
 body{
     margin:0;
+    cursor: pointer;
 
 }
 /* *************************************Winston**************************************** */
@@ -95,7 +96,7 @@ a.active,a:hover{
     font-size: 4vh;
     border-radius: 15vh;
     padding: 2vh 5vh 2vh 5vh;
-    box-shadow: 0.4em 1em 27vh 0.1em  #040405;
+    box-shadow: 0.4em 1em 2 0.1em  #040405;
     border: none;
     
 
