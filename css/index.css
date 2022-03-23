@@ -304,8 +304,9 @@ html, body{
 } */
 .wrapper{
     display: flex;
-    padding-left: 10%;
-    background: lightgray;
+    padding-left: 20%;
+    background: white;
+    padding-top: 7%;
     /* justify-content: space-around; */
 }
 .card{
@@ -354,7 +355,7 @@ html, body{
 .card .info{
     position: relative;
     z-index: 3;
-    color: purple;
+    color: black;
     opacity: 0;
     transform: translateY(30px);
     transition: 0.5s all;
