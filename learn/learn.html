@@ -189,156 +189,39 @@
         </ul>
 
     </div>
-    
+    <!-- <div class="hire-purchase">
+        <p>Welcome to our lipa nyumba polepole option</p>
+        <p>Where you get to chosse your own down payment & interest rates </p>
+       
+        <div id = "hire-form" >
+            <div class="form-group col-md-6" id="form">
+                <label for="price">House price</label> <br>
+                <input type="number" class="form-control" placeholder="Initial house price"  id="initialPrice" name="initialPrice" required="required"> <br>
 
+                <label for="deposit">Deposit</label>
+                <input type="number" class="form-control" placeholder="Deposit"  id="deposit" name="deposit" required="required"> <br>
 
+                <label for="interest">Interest Rate</label>
+                <input type="number" class="form-control" placeholder="Interest Rate"  id="interest" name="interest" required="required"> <br>
+               
+                <label for="time">Time</label>
+                <input type="number" class="form-control" placeholder="time"  id="time" name="time" required="required"> <br>
 
+              </div><br>
+              <div class="form-group">
+                
+              </div> -->
+              <!-- <button type="submit" value="submit" name="submit" id="submit"class="btn btn-primary" onclick="calculate()">Submit</button>
+            </div> 
+            <div id="results" >
+              <p>hhdh</p>
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
-   
-   
-    <script>
-      var map = L.map('map').setView([-1.2921, 36.8219], 10.4);
-
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-        }).addTo(map);
-
-        var myIcon = L.icon({
-        iconUrl: './images/house.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.1821, 36.7219],
-        });
-       var marker = L.marker([-1.1821, 36.7219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house4.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        iconUrl: './images/house.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.1921, 36.8219],
-        });
-       var marker = L.marker([-1.0921, 36.8219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house5.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        iconUrl: './images/house.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.0921, 36.8219],
-        });
-       var marker = L.marker([-1.2921, 36.7219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house3.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        title: "this is cool",
-        iconUrl: './images/house.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.2921, 36.7219],
-        });
-       var marker = L.marker([-1.2921, 36.8219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house5.jpg' /> ");
-
-        var myIcon = L.icon({
-        iconUrl: './images/house.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.3238, 36.8440],
-        });
-       var marker = L.marker([-1.3238, 36.8440], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br><img src='./images/house3.jpg' /> ");
-// APARTMENTS
-        var myIcon = L.icon({
-        iconUrl: './images/apartment.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.3921, 36.6219],
-        });
-       var marker = L.marker([-1.3921, 36.6219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment1.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        iconUrl: './images/apartment.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.3221, 36.6219],
-        });
-       var marker = L.marker([-1.3221, 36.6219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment2.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        iconUrl: './images/apartment.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.3821, 36.6219],
-        });
-       var marker = L.marker([-1.3821, 37.1219], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment4.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        iconUrl: './images/apartment.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.2132, 36.8380],
-        });
-       var marker = L.marker([-1.2132, 36.8380], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment1.jpg' /> ");
-
-       var myIcon = L.icon({
-        iconUrl: './images/apartment.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.2893, 36.7869],
-        });
-       var marker = L.marker([-1.2893, 36.7869], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment2.jpg' /> ");
-
-
-        var myIcon = L.icon({
-        iconUrl: './images/apartment.png',
-        iconSize: [38, 45],
-        popupAnchor: [-1.2183, 36.8427],
-        });
-       var marker = L.marker([-1.2183, 36.8427], {icon: myIcon}).addTo(map);
-        marker.bindPopup("<b>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam nam hic maiores assumenda laborum in dicta vel libero! Nulla perferendis ipsa odit rerum accusamus dolorem quidem delectus aut blanditiis facere.</b><br> <img src='./images/apartment4.jpg' /> ");
-    </script>
-
-    <!-- <div class="row align-items-start" style="margin: 0;">
-        <div class="col">
-         
-            <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
-                     
         </div>
-        <div class="col">
-           
-            <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
-                     
-        </div>
-        <div class="col">
-           
-            <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
-                     
-        </div>
-        <div class="col">
-           
-            <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
-                     
-        </div>
-        <div class="col">
-           
-            <img src="https://images.unsplash.com/photo-1564936281659-ba4f75a41956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZGVsaWNpb3VzJTIwcGl6emF8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Los Angeles" class="d-block w-100">
-                     
-        </div>
+
     </div> -->
-    <br>
+   
+   
     <script src="scripts.js"></script>
 </body>
 </html>
