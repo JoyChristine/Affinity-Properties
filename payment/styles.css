@@ -18,7 +18,8 @@ body{
   
 .output{
     clear:both!important;
-    background-color: #236734;
+    background-color: #213e44;
+    
 }
   
 .hirepurchase{
@@ -30,9 +31,11 @@ body{
 
 #paymentResults{
     display: none; 
-    background-color: #236734;
+    background-color: #213e44;
     margin-left: 20%;
     margin-top: 10%;
+    color: white;
+    width: 100%;
  }
 #hire{
     text-align: center;
@@ -45,7 +48,7 @@ body{
 
 #hire1{
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 0%;
     padding-top: 3%;
     font-family: serif;
     font-weight: 400;
