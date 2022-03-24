@@ -12,44 +12,60 @@
 <body>
     
 
-    <h2>Welcome to our lipa nyumba polepole option</h2>
-    <h2>Where you get to chosse your own down payment & interest rates </h2>
+    <h2 id="hire">WELCOME TO OUR LIPA NYUMBA POLEPOLE </h2>
+    <h2 id="hire1">Where you get to chosse your own down payment & interest rates </h2>
 <div class="hirepurchase" style="display: flex;">
     
 <br>
+
+<div class="container" >
     <div class="pay">
-  
+      <div class="row">
+        <div class="col-sm-6">
       <form id="form" action="" method="get" class="">
         <div class="initialPrice">
-          <h2>Hire Purchase calculator</h2>
+          <h2 id="hire3" style="padding-bottom: 7%;">Hire Purchase calculator</h2>
           <div class="form-group">
-            <label for="housePrice">Initial House Price</label>
+            <label for="housePrice"style="padding-bottom: 2%; font-family: poppin,serif;">Initial House Price</label>
             <input type="number"  class="form-control" id="housePrice" placeholder="Initial house price">
           </div>
+          <br>
         </div>
         <div class="deposit">
           <div class="form-group">
-            <label for="downPayment">Deposit</label>
+            <label for="downPayment" style="padding-bottom: 2%; font-family: poppin,serif;">Deposit</label>
             <input type="number" class="form-control" id="deposit" placeholder="deposit" value="">
           </div>
         </div>
+        <br>
         <div class="rate">
           <div class="form-group">
-            <label for="intRate">Interest Rate</label>
+            <label for="intRate"style="padding-bottom: 2%; font-family: poppin,serif;">Interest Rate</label>
             <input type="text" class="form-control" id="intRate" placeholder="Interest Rate" value="">
           </div>
         </div>
+        <br>
         <div class="period">
           <div class="form-group">
-            <label for="period">Period </label>
+            <label for="period"style="padding-bottom: 2%; font-family: poppin,serif;">Period </label>
             <input type="text" class="form-control" id="period" placeholder="Period in months">
           </div>
         </div>
+        <br>
         <div class="output"></div><br>
+
+
         <div class="col-md-12">
-          <a href="#" class="btn btn-primary" onclick="calculatePayments()" id="calculate" value="Calulate">Calculate</a> <button type="reset" class="btn btn-danger">Reset</button>
+          <a href="#" class="btn btn-primary" onclick="calculatePayments()" id="calculate" value="Calulate"style="padding-bottom: 1%; font-family: poppin,serif;" >Calculate</a> 
+          <button type="reset" class="btn btn-danger" style="padding-bottom: 1%; font-family: poppin,serif;">Reset</button>
         </div>
       </form>
+        </div>
+
+        <div class="col-sm-6">
+          <img id="hire2" src="/Assets/hire.jpg">
+        </div>
+    </div>
     </div>
     <div class="col-md-6">
       <div id="paymentResults">

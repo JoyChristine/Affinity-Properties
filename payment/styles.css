@@ -1,5 +1,14 @@
+body{
+    background-color:#d7ebf4;
+    
+}
+
+
+
 #form{
-    width: 30vw;
+    width: 35vw;
+    padding: 10%;
+    padding-left: 12%;
 }
 #form input{
     padding:1vw;
@@ -23,5 +32,43 @@
     display: none; 
     background-color: #236734;
     margin-left: 20%;
+    margin-top: 10%;
  }
-  
+#hire{
+    text-align: center;
+    padding-top: 5%;
+    font-family: poppins,serif;
+    font-weight: bold;
+   color:#212529 ; 
+   font-size: 400%;
+}
+
+#hire1{
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 3%;
+    font-family: serif;
+    font-weight: 400;
+   color:#212529 ;
+   font-style: italic; 
+}
+#hire2{
+    height: 43vw;
+    width: 35vw;
+    
+}
+.pay{
+    background-color:#fff ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#hire3{
+    font-family: poppins,serif;
+    font-weight: bold;
+    text-align: center;
+}
+#housePrice,#deposit,#intRate,#period{
+    font-family: poppins,serif;
+    font-style: italic; 
+    font-weight: 400;
+    
+}
