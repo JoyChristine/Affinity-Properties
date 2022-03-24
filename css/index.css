@@ -37,7 +37,7 @@ body{
 
 .navlist ul li{
     display: inline-block;
-    margin: 4vw;
+    margin: 3vw;
     margin-top: 4vh;
     margin-left: 8vh;
     
@@ -371,12 +371,13 @@ html, body{
 }
 .card .info h1{
     margin: 0;
+    font-size: 1.5vw;
 }
 .card .info p{
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 0.8vw;
     margin-top: 8px;
-    margin-bottom: 20px;
+    
 }
 .card .info .btn{
     text-decoration: none;
