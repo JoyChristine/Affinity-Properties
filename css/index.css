@@ -3,6 +3,7 @@ body{
     margin:0;
     cursor: pointer;
 
+
 }
 /* *************************************Winston**************************************** */
 /* Winston start */
@@ -37,7 +38,7 @@ body{
 
 .navlist ul li{
     display: inline-block;
-    margin: 4vw;
+    margin: 3vw;
     margin-top: 4vh;
     margin-left: 8vh;
     
@@ -239,7 +240,25 @@ font-size:1vw;
    color:#212529 ;
 }
 
+#learn-more{
+    color: white;
+    text-align: center;
+    position: relative;
+    left:40%;
+    font-family: poppins,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
 
+#learn-more1{
+    color: black;
+    position: relative;
+    left:40%;
+    top:10%;
+    font-family: poppins,sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
 
 
 /*************************** Diana's end ******************/
@@ -371,12 +390,13 @@ html, body{
 }
 .card .info h1{
     margin: 0;
+    font-size: 1.5vw;
 }
 .card .info p{
     letter-spacing: 1px;
-    font-size: 15px;
+    font-size: 0.8vw;
     margin-top: 8px;
-    margin-bottom: 20px;
+    
 }
 .card .info .btn{
     text-decoration: none;
