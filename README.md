@@ -1,14 +1,10 @@
 # Affinity-Properties
-## Table of Content
-
--   [Description](#description)
--   [Installation Requirement](#usage)
--   [Technology Used](#technologies)
--   [Licence](#licence)
--   [Authors Info](#authors-info)
 
 ## Description 
 Affinity properties is a website where one can see properties listings. 
+![image](https://user-images.githubusercontent.com/57414671/159907230-bd33f7c3-d9e2-452d-a01c-7179cb06cabe.png)
+
+
 ### problem we were solving
 
 -  In this day and age buying and selling property has become something so delicate due to brokers and scammers especially in matters of acquiring properties.
@@ -68,4 +64,4 @@ To make advancements/modifications, follow these steps:
 
 
 
-[Go Back to the top](#Affinity-Properties)
+<!-- [Go Back to the top](#Affinity-Properties) -->
