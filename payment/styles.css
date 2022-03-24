@@ -1,0 +1,27 @@
+#form{
+    width: 30vw;
+}
+#form input{
+    padding:1vw;
+    width: 100%;
+    display:block;
+}
+  
+.output{
+    clear:both!important;
+    background-color: #236734;
+}
+  
+.hirepurchase{
+    
+    padding: 5vw 3vw;
+    overflow: auto;
+  }
+  
+
+#paymentResults{
+    display: none; 
+    background-color: #236734;
+    margin-left: 20%;
+ }
+  

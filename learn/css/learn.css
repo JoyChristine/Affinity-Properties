@@ -69,8 +69,6 @@ body{
 .apart{
     display: flex;
     width: 100%;
-   
-    
     
 }
 .apart img{
@@ -115,3 +113,66 @@ border-top-left-radius: 1vw;
 #navlist li{
    margin: 2vw;
 }
+/* search */
+#choose{
+    /* margin-left: -2%; */
+}
+#myInput{
+    background-image: url(../images/search.png);
+    background-position: 1vw 1vw;
+  background-repeat: no-repeat;
+  background-size: 2vw;
+  width: 50%;
+  font-size: 1.2vw;
+  padding: 1vw 2vw 1vw 3vw;
+  border: 0.2vw solid #ddd;
+  margin-bottom: 1vw;
+}
+#my-list{
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 0%;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+#my-list li a{
+    text-decoration: none;
+    display:none;
+}
+#my-list img{
+    width: 30vw;
+    border-top-left-radius: 1vw;
+    border-top-right-radius: 1vw;
+  
+}
+#des{
+    font-size: 1vw;
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #D7EBF4;
+    padding: 2%;
+    margin-bottom: 5%;
+    border-bottom-left-radius: 1vw;
+    border-bottom-right-radius: 1vw;
+}
+/* hire purchase */
+
+
+/* #form{
+   
+    justify-content: space-evenly;
+
+}
+.form-group input{
+    width: 50%;
+}
+#results{
+    background:red;
+    display: none;
+   
+
+} */

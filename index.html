@@ -57,7 +57,7 @@
       <div class="navlist">
         <ul>
           <li><a class="active"href="#">Home</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#about">About</a></li>
                 <li><a href="#">Blog</a></li>
                 <li><a href="#">Services</a></li>
             </ul>
@@ -96,11 +96,11 @@
   <!-- Services section -->
   <section class="our-services">
     <div class="container">
-      <h1 id="about">Our Services</h1>
+      <h1 id="about">Our Services</h1> 
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-          <h1 id="choose1"><strong>Why Choose Us</strong></h1>  
+          <h1 id="choose1"><strong>Why Choose Us?</strong></h1>  
         </div>
         <div class="col-sm-6">
           <p id="choose"> Solid Experience. Real Results. Full Transparency. Communication Guaranteed.
@@ -114,7 +114,9 @@
         <div class="container-fluid">
            
              <div class= "parent">
-                <div class="child1">
+               
+                <div class="child1"> 
+                 
                     <i id="icon-home"class="fa fa-home fa-2x" aria-hidden="true" ></i>
                     <h2 id="prop1"style=color:white; >1.  Buy Property</h2>
                      <p id="prop" style="color:white;font-size:1vw;">We’ll help you along your path toward homeownership.Our main focus is to offer investors turnkey and hassle-free properties with high returns </p>
@@ -299,15 +301,36 @@
 
     <div class="bank">
       <b>A & B Bank</b> 
-      <b>A & B Bank</b><b>A & B Bank</b><b>A & B Bank</b>
+      <b>A & B Bank</b>
+      <b>A & B Bank</b>
+      <b>A & B Bank</b>
       <b>A & B Bank</b>
     </div>
   </div>
   <div id="contacts">
-   <div id="contact-pic">
-     <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZSUyMGludGVyaW9yfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
-   </div>
-   <div id="contact-us">
+    <div id="contact-pic">
+      <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZSUyMGludGVyaW9yfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="">
+    </div>
+    <div class="contact">
+      <h2>CONTACT US</h2>
+      <form id="form"  action="">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Name"  id="name" name="FNAME" required="required"> <br>
+          <input type="email" class="form-control" placeholder="Email"id="email" name="EMAIL" autocapitalize="off" autocomplete="off" required="required">
+        </div><br>
+        <div class="form-group">
+          <textarea class="form-control" rows="8" id="msg" placeholder="Your message here..." name="MSG" required="required"></textarea>
+        </div><br>
+        <button type="submit" value="submit" name="submit" id="submit"class="btn btn-primary">Submit</button>
+      
+      </form>  
+    </div>
+  </div>
+    <footer id="footer">
+      Copyright @ 2022
+    </footer>
+    
+   <!-- <div id="contact-us">
      Contact us
      <ul id="contact-list">
        <li> <i class="fa fa-solid fa-envelope"></i>&nbsp; Mail: &nbsp; info@AffinityProperties.com</li>
@@ -324,10 +347,8 @@
           Kilimani, Nairobi</li>
       </ul>
     </div>
-  </div>
-  <footer id="footer">
-    Copyright @ 2022
-  </footer>
+  </div> -->
+ 
 
 
 
